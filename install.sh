@@ -2,14 +2,21 @@
 
 set -e
 
+
+LAYOUT_NAME="lhw4"
+XKB_DIR="/usr/share/X11/xkb/symbols"
+
 echo "Instalando layout de teclado lhw4 (MacBook Pro)..."
 
-sudo cp lhw4 /usr/share/X11/xkb/symbols/
-sudo chmod 644 /usr/share/X11/xkb/symbols/lhw4
+sudo cp "symbols/$LAYOUT_NAME" "$XKB_DIR/"
+sudo chmod 644 "$XKB_DIR/$LAYOUT_NAME"
 
 echo
 echo "Layout instalado com sucesso!"
+echo " "
 echo "Agora ative em:"
 echo "Configurações → Teclado → Layouts"
 echo "ou pelo terminal:"
-echo "  setxkbmap -layout lhw4"
+echo " "
+echo "  setxkbmap -layout $LAYOUT_NAME"
+echo " "
