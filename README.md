@@ -1,119 +1,107 @@
-# lhw4 – Layout custom de teclado Apple para Linux (MacBook Pro)
+lhw4 – Custom Apple Keyboard Layout for Linux (MacBook Pro)
+📸 Physical Apple Keyboard Layout (MacBook Pro)
 
-- Layout de teclado **ABNT2 funcional** para **teclados Apple ISO (MacBook Pro)** no Linux.  
-- Chega de teclas quebradas, símbolos fora do lugar e gambiarra eterna.
-- Porque teclado Apple no Linux **pode** funcionar direito.  
-- E agora funciona. 😌⌨️
-
-![Linux](https://img.shields.io/badge/Linux-XKB-blue)
-![Keyboard](https://img.shields.io/badge/Keyboard-Apple%20ISO-lightgrey)
-![Layout](https://img.shields.io/badge/Layout-ABNT2-green)
-![Status](https://img.shields.io/badge/Status-Estável-brightgreen)
-
----
-
-## 📸 Layout físico do teclado Apple (MacBook Pro)
-
-Foto real do teclado usado para criar e testar o layout **lhw4**:
+Real photo of the keyboard used to create and test the lhw4 layout:
 
 <p align="center">
-	<img src="images/teclado-macbook.jpg" alt="MacBook keyboard layout" width="600">
+  <img src="images/teclado-macbook.jpg" alt="MacBook keyboard layout" width="600">
 </p>
 
-Este projeto fornece um layout de teclado **XKB corrigido** para teclados Apple  
-(MacBook Pro), especialmente útil em distribuições Linux como **Linux Mint** e **Ubuntu**.
+This project provides a fixed and reliable XKB keyboard layout for Apple
+MacBook Pro keyboards (ISO), especially useful on Linux distributions such as
+Linux Mint and Ubuntu.
 
-O layout resolve problemas comuns como:
+It solves long-standing issues commonly found when using Apple keyboards on Linux.
 
-- "/" e "?"
-- "ç"
-- "~ ´ ^"
-- Combinações com "AltGr"
-- Símbolos deslocados em teclados Apple
 
-**Obs.:**  
-O símbolo `|` existe como `AltGr+~`  
-(`~` é a tecla fisicamente marcada como `Ñ` no teclado Apple ISO).
+🔧 What problems does this layout fix?
 
-Criado originalmente a partir de um layout personalizado no Windows (MSKLC)  
-e convertido para XKB com ajustes finos, persistência, teimosia técnica  
-e Jack & Coke em profusão. 🍹
+Broken or swapped / and ?
 
----
+Missing or incorrect ç
 
-## 🎯 Para quem é esse projeto?
+Broken dead keys (~ ´ ^)
 
-Esse layout é para você se:
+Incorrect AltGr combinations
 
-- Você usa um **MacBook Pro (teclado Apple ISO)**
-- Você roda **Linux** (Mint, Ubuntu, Debian-based)
-- Você quer **comportamento de ABNT2 brasileiro**
-- Você está cansado(a) de layouts quebrados, hacks e mods que “quase” funcionam
+Misplaced symbols on Apple ISO keyboards
 
----
+Note:
+The | symbol is available as AltGr + ~
+(~ is the physical key labeled as Ñ on Apple ISO keyboards).
 
-## ✅ O que funciona?
+Originally created as a custom Windows layout (MSKLC)
+and later converted to XKB with extensive manual fixes, testing,
+stubborn persistence — and a generous amount of Jack & Coke. 🍹
 
-- Todas as letras corretamente mapeadas
-- Dead keys (`´ ` ^ ~`) funcionando 100%
-- Tecla **ç** totalmente funcional
-- Símbolos em suas posições corretas
-- Nenhuma tecla trocada (A ≠ I 😅)
-- Comportamento consistente com layout brasileiro
 
-## 🗺️ Mapa rápido de teclas especiais
+🎯 Who is this for?
 
-| Tecla física (Apple ISO) | Resultado |
-|--------------------------|-----------|
-| [AltGr + ~]              | [|]       |
-| [´ + vogal]              | Á É Í Ó Ú |
-| [` + vogal]	           | À È Ì Ò Ù |
-| [^ + vogal]              | Â Ê Î Ô Û |
-| [~ + vogal]              | Ã Õ       |
-| [¨ + vogal]              | Ä Ë Ï Ö Ü |
-| Tecla ao lado do Enter   | [ç]       |
+This layout is for you if:
 
----
+You use a MacBook Pro with an Apple ISO keyboard
 
-## 💻 Sistemas testados
+You run Linux (Mint, Ubuntu, Debian-based)
 
-- Linux Mint Cinnamon
-- MacBook Pro (teclado Apple – ISO)
+You want Brazilian ABNT2 behavior
 
----
+You are tired of broken layouts and hacks that almost work
 
-## 🛠 Instalação
 
-```bash
+✅ What works?
+
+All letters correctly mapped
+
+Dead keys (´ ^ ~`) working 100%
+
+Fully functional ç key
+
+Symbols in their correct physical positions
+
+No swapped keys (A ≠ I 😅)
+
+Consistent Brazilian keyboard behavior
+
+
+💻 Tested systems
+
+Linux Mint Cinnamon
+
+MacBook Pro (Apple ISO keyboard)
+
+
+🛠 Installation
 git clone https://github.com/Lehwing/lhw4-macbook-keyboard.git
 cd lhw4-macbook-keyboard
 chmod +x install.sh
 ./install.sh
-```
 
----
 
-## 🎮 Autores
+🖼 Activation
 
-Criado, depurado e testado por **Dani & Ari** 🧵✨  
-Engenheiros eletrônicos, hobbistas e inventores amadores.
+After installation, enable the layout:
 
-Este projeto nasceu da persistência, curiosidade  
-e da recusa absoluta em aceitar “quase funciona”.
+System Settings → Keyboard → Layouts
+Look for the installed layout lhw4
 
----
+Or via terminal:
 
-## ❓ FAQ
+setxkbmap -layout lhw4
 
-**Funciona em MacBook Air?**  
-Provavelmente sim, desde que o teclado seja Apple ISO.
 
-**Funciona em Wayland?**  
-Sim, desde que o sistema use XKB (Mint, Ubuntu e derivados).
+🔙 Reverting to the default layout
 
-**Substitui layouts existentes?**  
-Não. O layout "lhw4" é adicionado como opção extra.
+System Settings → Keyboard → Layouts → Restore Defaults
 
-**Posso remover depois?**  
-Sim. Basta apagar o arquivo:
-"/usr/share/X11/xkb/symbols/lhw4"
+Or via terminal:
+
+setxkbmap -layout br
+
+
+👥 Authors
+
+Created, compiled and tested by Dani & Ari 🧵✨
+Electronics engineers, hobbyists and unapologetic tinkerers.
+
+This project was born from persistence, curiosity,
+and a deep refusal to accept “almost working” solutions.
