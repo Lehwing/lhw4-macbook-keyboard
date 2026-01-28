@@ -77,6 +77,18 @@ chmod +x install.sh
 ./install.sh
 
 
+🧩 Visual layout (KLE)
+
+This project includes a full visual layout created using  
+Keyboard Layout Editor (KLE).
+
+The source file is available in:
+- `kle/lhw4.kle.json`
+
+You can load this file directly at:
+https://keyboard-layout-editor.com
+
+
 🖼 Activation
 
 After installation, enable the layout:

@@ -82,6 +82,19 @@ Esse layout é para você se:
 
 ---
 
+## 🧩 Layout visual (KLE)
+
+Este projeto inclui um layout visual completo criado com o
+**Keyboard Layout Editor (KLE)**.
+
+O arquivo-fonte está disponível em:
+- `kle/lhw4.kle.json`
+
+Você pode carregar esse arquivo diretamente em:
+https://keyboard-layout-editor.com
+
+---
+
 ## 🛠 Instalação
 
 ```bash
