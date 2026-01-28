@@ -63,6 +63,14 @@ No swapped keys (A ≠ I 😅)
 Consistent Brazilian keyboard behavior
 
 
+🖼 Keyboard layout (visual reference)
+
+![Keyboard layout](images/lhw4-kle-layout.png)
+
+This image was generated using **Keyboard Layout Editor (KLE)** and reflects
+the real behavior of the `lhw4` XKB layout.
+
+
 💻 Tested systems
 
 Linux Mint Cinnamon
@@ -87,6 +95,15 @@ The source file is available in:
 
 You can load this file directly at:
 https://keyboard-layout-editor.com
+
+
+📸 Physical layout of the Apple Keyboard (MacBook Pro)
+
+Real photograph of the keyboard used created and test the layout **lhw4**:
+
+<p align="center">
+	<img src="images/teclado-macbook.jpg" alt="MacBook keyboard layout" width="600">
+</p>
 
 
 🖼 Activation

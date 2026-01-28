@@ -12,6 +12,15 @@
 
 ---
 
+## 🖼 Layout visual do teclado
+
+![Layout do teclado](images/lhw4-kle-layout.png)
+
+Esta imagem foi gerada com o **Keyboard Layout Editor (KLE)** e representa
+fielmente o comportamento real do layout XKB `lhw4`.
+
+---
+
 ## 📸 Layout físico do teclado Apple (MacBook Pro)
 
 Foto real do teclado usado para criar e testar o layout **lhw4**:
