@@ -1,4 +1,5 @@
 lhw4 – Custom Apple Keyboard Layout for Linux (MacBook Pro)
+
 📸 Physical Apple Keyboard Layout (MacBook Pro)
 
 Real photo of the keyboard used to create and test the lhw4 layout:
@@ -95,15 +96,6 @@ The source file is available in:
 
 You can load this file directly at:
 https://keyboard-layout-editor.com
-
-
-📸 Physical layout of the Apple Keyboard (MacBook Pro)
-
-Real photograph of the keyboard used created and test the layout **lhw4**:
-
-<p align="center">
-	<img src="images/teclado-macbook.jpg" alt="MacBook keyboard layout" width="600">
-</p>
 
 
 🖼 Activation
