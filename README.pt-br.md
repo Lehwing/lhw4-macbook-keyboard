@@ -12,6 +12,16 @@
 
 ---
 
+## 📦 Download
+
+A versão estável mais recente está disponível no GitHub:
+
+👉 https://github.com/Lehwing/lhw4-macbook-keyboard/releases/latest
+
+Baixe o pacote `.deb` e instale localmente.
+
+---
+
 ## 🖼 Layout visual do teclado
 
 ![Layout do teclado](images/lhw4-kle-layout.png)

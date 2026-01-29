@@ -1,6 +1,16 @@
 lhw4 – Custom Apple Keyboard Layout for Linux (MacBook Pro)
 
-📸 Physical Apple Keyboard Layout (MacBook Pro)
+### 📦 Download
+
+The latest stable release is available on GitHub:
+
+👉 https://github.com/Lehwing/lhw4-macbook-keyboard/releases/latest
+
+Download the `.deb` package and install it locally.
+
+---
+
+### 📸 Physical Apple Keyboard Layout (MacBook Pro)
 
 Real photo of the keyboard used to create and test the lhw4 layout:
 
@@ -14,8 +24,9 @@ Linux Mint and Ubuntu.
 
 It solves long-standing issues commonly found when using Apple keyboards on Linux.
 
+---
 
-🔧 What problems does this layout fix?
+### 🔧 What problems does this layout fix?
 
 Broken or swapped / and ?
 
@@ -35,8 +46,9 @@ Originally created as a custom Windows layout (MSKLC)
 and later converted to XKB with extensive manual fixes, testing,
 stubborn persistence — and a generous amount of Jack & Coke. 🍹
 
+---
 
-🎯 Who is this for?
+### 🎯 Who is this for?
 
 This layout is for you if:
 
@@ -48,8 +60,9 @@ You want Brazilian ABNT2 behavior
 
 You are tired of broken layouts and hacks that almost work
 
+---
 
-✅ What works?
+### ✅ What works?
 
 All letters correctly mapped
 
@@ -63,30 +76,34 @@ No swapped keys (A ≠ I 😅)
 
 Consistent Brazilian keyboard behavior
 
+---
 
-🖼 Keyboard layout (visual reference)
+### 🖼 Keyboard layout (visual reference)
 
 ![Keyboard layout](images/lhw4-kle-layout.png)
 
 This image was generated using **Keyboard Layout Editor (KLE)** and reflects
 the real behavior of the `lhw4` XKB layout.
 
+---
 
-💻 Tested systems
+### 💻 Tested systems
 
 Linux Mint Cinnamon
 
 MacBook Pro (Apple ISO keyboard)
 
+---
 
-🛠 Installation
+### 🛠 Installation
 git clone https://github.com/Lehwing/lhw4-macbook-keyboard.git
 cd lhw4-macbook-keyboard
 chmod +x install.sh
 ./install.sh
 
+---
 
-🧩 Visual layout (KLE)
+### 🧩 Visual layout (KLE)
 
 This project includes a full visual layout created using  
 Keyboard Layout Editor (KLE).
@@ -97,8 +114,9 @@ The source file is available in:
 You can load this file directly at:
 https://keyboard-layout-editor.com
 
+---
 
-🖼 Activation
+### 🖼 Activation
 
 After installation, enable the layout:
 
@@ -109,8 +127,9 @@ Or via terminal:
 
 setxkbmap -layout lhw4
 
+---
 
-🔙 Reverting to the default layout
+### 🔙 Reverting to the default layout
 
 System Settings → Keyboard → Layouts → Restore Defaults
 
@@ -118,8 +137,9 @@ Or via terminal:
 
 setxkbmap -layout br
 
+---
 
-👥 Authors
+### 👥 Authors
 
 Created, compiled and tested by Dani & Ari 🧵✨
 Electronics engineers, hobbyists and unapologetic tinkerers.
